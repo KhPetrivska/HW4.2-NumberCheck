@@ -19,13 +19,10 @@ if (number === null) {
     || +numObject[1] === +numObject[2] 
     || +numObject[0] === +numObject[2];
     if(sameThreeDigits){
-        console.log("All digits are same.")
+        console.log("All digits are same.");
     }else if(sameTwoDigits){
-        console.log("There are same digits in the number.")
+        console.log("There are same digits in the number.");
     }else{
-        console.log("All digits are different.") 
-    }
-}
-   
-
-
+        console.log("All digits are different.");
+    };
+};
