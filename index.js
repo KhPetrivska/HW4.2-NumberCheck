@@ -14,10 +14,10 @@ if (number === null) {
 }else{
     //is a 3digit number
     const numObject = absIntNumber.toString().split("");
-    const sameThreeDigits = +numObject[0] === +numObject[1] && +numObject[1] === +numObject[2];
-    const sameTwoDigits = +numObject[0] === +numObject[1] 
-    || +numObject[1] === +numObject[2] 
-    || +numObject[0] === +numObject[2];
+    const sameThreeDigits = numObject[0] === numObject[1] && numObject[1] === numObject[2];
+    const sameTwoDigits = numObject[0] === numObject[1] 
+    || numObject[1] === numObject[2] 
+    || numObject[0] === numObject[2];
     if(sameThreeDigits){
         console.log("All digits are same.");
     }else if(sameTwoDigits){
